@@ -24,7 +24,7 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
+  /* display: flex; */
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
@@ -57,7 +57,7 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: #404969;
   }
   a:hover {
     color: #747bff;
@@ -66,3 +66,21 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* ******** begin: this comment ********/
+/* add this footer styling manually, cuz I was thinking this footer styling will be applied across
+the project, so I can just make it global. */
+footer{
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p{
+  color: rgb(182, 167, 167);
+}
+/******** end: this comment ********/
+
+

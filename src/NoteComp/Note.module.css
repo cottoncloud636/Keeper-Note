@@ -1,0 +1,24 @@
+.note{
+    background-color: #e0fcff;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgb(220, 209, 244);
+    /* height: 250px; */ /*In CSS, when you don't explicitly set the height property for an element, its height is
+     determined by the content inside it, and it adopts the default height based on its content's size. This is 
+     often referred to as "auto" height.*/
+    width: 240px;
+    margin: 16px;
+    float: left;
+    padding-left: 10px;
+  }
+  
+  .note h1{
+    font-size: 1.1em; /* 1em==16px, 2em==32em ... */
+    margin-bottom: 6px;
+  }
+  
+  .note p{
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+  }

@@ -3,10 +3,12 @@ import styles from './Header.module.css';
 
 function Header(){
     return (
-        <div >
-            <h1 className={styles.header}>Keeper</h1>
+        <div className={styles.bg}>
+            <header>
+                <h1 className={styles.header}>Keeper</h1>
+            </header>
         </div>
     );
 }
 
-export default TopBar;
+export default Header;

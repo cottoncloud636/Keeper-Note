@@ -1,6 +1,17 @@
+
+.bg{
+    width: 100%;
+}
+
+
 .header{
     color: white;
-    /* background-color: rgb(255, 179, 0); */
+    background-color:#ff7f50;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 black;
     font-weight: bold;
+    
 }
+
 
